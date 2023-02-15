@@ -1,0 +1,31 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  width: 15rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color: #555;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+}
